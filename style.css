@@ -1,0 +1,119 @@
+:root {
+  --cyan-color: hsl(179, 62%, 43%);
+  --bright-yellow: hsl(71, 73%, 54%);
+  --Light-Gray: hsl(204, 43%, 93%);
+  --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+html {
+  font-size: 16px !important;
+  font-family: "Karla", sans-serif;
+}
+
+body {
+  background-color: var(--Light-Gray);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Karla", sans-serif;
+  flex-wrap: wrap;
+}
+
+main {
+  width: 728px;
+  background-color: white;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-shadow: 5px 5px 20px 3px grey;
+}
+
+header {
+  background-color: white;
+  padding: 2rem;
+  height: 140px;
+  border-radius: 20px;
+}
+
+header h1 {
+  color: var(--cyan-color);
+  font-weight: 700;
+}
+
+header p {
+  color: var(--Grayish-Blue);
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+.section1 {
+  background-color: var(--cyan-color);
+  width: 300px;
+  height: 218px;
+  padding: 2rem;
+  border-bottom-left-radius: 10px;
+}
+
+.section1 h1 {
+  color: var(--Light-Gray);
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.section1 h2 span {
+  color: var(--Light-Gray);
+  font-weight: 700;
+  font-size: 29px;
+}
+
+.section1 h2 {
+  color: var(--bright-yellow);
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.section1 p {
+  color: var(--Light-Gray);
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.section1 button {
+  background-color: var(--bright-yellow);
+  color: var(--Light-Gray);
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 15px;
+  font-weight: 700;
+  margin-top: 1rem;
+  font-size: 19px;
+  padding: 1rem 6.6rem;
+  box-shadow: 3px 3px 3px 1px var(--Grayish-Blue);
+  cursor: pointer;
+}
+
+.section2 {
+  background-color: hsl(179deg 62% 56%);
+  padding: 2rem;
+  width: 300px;
+  border-bottom-right-radius: 10px;
+}
+
+.section2 h1 {
+  color: var(--Light-Gray);
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.section2 p {
+  color: var(--bright-yellow);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6rem;
+  text-align: start;
+}
